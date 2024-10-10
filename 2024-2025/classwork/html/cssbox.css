@@ -1,0 +1,23 @@
+div {border:1px black solid;
+padding:30px
+}
+#first {
+    background-color: greenyellow;
+width:500px;
+}
+
+#second{
+    background-color: lightpink;
+}
+
+#third{
+    background-color: yellow;
+}
+
+#fourth{
+    background-color: red;
+}
+
+#fifth{
+    background-color: deepskyblue;
+}
