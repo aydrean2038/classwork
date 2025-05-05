@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target.
+        //The DOMContentLoaded fires when the HTML document has been completely parsed, scripts (<script defer src="…"> and <script type="module">) have downloaded and executed.
+        document.addEventListener("DOMContentLoaded", (evt)=> {
+
+            //The getElementById() method that returns an Element object representing the element whose id property matches the specified string.
+            const input=document.getElementById("fifth")
+
+            //The
+            const button=document.getElementById("fourth")
+
+            //The
+            const game=document.getElementById("game")
+
+            //The
+            button.addEventListener("click", (evt)=>{
+
+            //
+            let message="Hi, " + input.value+ ", are you ready to code?"
+                game.textContent
+
+            })
+
+        })
+        //
+    </script>
+</head>
+<body>
+
+<label>please input your first name</label>
+
+<input type="text" id="fifth"/>
+
+<button type="button" id="fourth">Get Message</button>
+
+<h3 id="game">place holder</h3>
+
+</body>
+</html>
