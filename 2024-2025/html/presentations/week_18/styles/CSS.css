@@ -1,0 +1,25 @@
+.bigtext2 {
+    font-size: 28px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1{
+    font-size:56px;
+    color:black;
+}
+header {
+    margin-top:0;
+    padding:20px;
+    background-color: dimgray;
+}
+
+.next {
+    margin-top: 20px;
+    display: block;
+}
+code {
+    font-size:20px;
+}
